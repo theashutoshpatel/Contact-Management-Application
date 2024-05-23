@@ -1,0 +1,163 @@
+/* Contacts.css */
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    color: rgb(19, 2, 2);
+    background-color: #bb9def;
+    border-radius: 9999px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.animated-button:hover {
+    background-color: #6d28d9;
+    transform: scale(1.05);
+}
+
+.animated-button:active {
+    background-color: #5b21b6;
+    transform: scale(0.95);
+}
+
+
+
+
+/* contact.css */
+
+.contact-card {
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    color: rgb(17, 6, 6);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card label {
+    color: #f3f4f6;
+}
+
+.contact-card input,
+.contact-card select {
+    border: none;
+    background: #e5e7eb;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+
+.contact-card input:focus,
+.contact-card select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.save-button {
+    background: #10b981;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+}
+
+.save-button:hover {
+    background: #059669;
+    transform: translateY(-3px);
+}
+
+
+
+
+
+/* contact.css */
+
+/* Other styles remain unchanged */
+
+/* Avatar styles */
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Button styles */
+.card-button, .save-button {
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover, .save-button:hover {
+    background-color: #4a90e2;
+}
+
+.card-button:active, .save-button:active {
+    background-color: #357ab8;
+}
+
+/* Form container */
+.contact-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles */
+.contact-card input, .contact-card select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.contact-card input:focus, .contact-card select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+
+
+
+/* Sidebar.css */
+
+.animated-background {
+    animation: animateBackground 10s linear infinite alternate;
+    background-size: 400% 400%; /* Increase size for smoother animation */
+  }
+  
+  @keyframes animateBackground {
+    0% {
+      background-color: #b3e5fc;
+      background-position: 0% 0%;
+    }
+    25% {
+      background-color: #4fc3f7;
+      background-position: 100% 0%;
+    }
+    50% {
+      background-color: #b3e5fc;
+      background-position: 100% 100%;
+    }
+    75% {
+      background-color: #4fc3f7;
+      background-position: 0% 100%;
+    }
+    100% {
+      background-color: #b3e5fc;
+      background-position: 0% 0%;
+    }
+  }
+  
